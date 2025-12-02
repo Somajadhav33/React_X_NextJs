@@ -2,30 +2,29 @@ import "./App.css";
 
 function App() {
   return (
-    <>
-      <h1 className="text-blue-600 dark:text-sky-400 border-2 p-4 rounded-xl">
-        Learn To Integrate Tailwind
+    <div className="min-h-screen p-8">
+      <h1 className="text-4xl font-bold text-center text-blue-600 dark:text-sky-400 mb-10">
+        Learn Tailwind CSS – It's Awesome!
       </h1>
-      <div className="max-w-80 bg-white border border-gray-200 rounded-xl mt-8 shadow-blue-300 overflow-hidden transition-shadow">
+
+      <div className="max-w-sm mx-auto bg-white border border-gray-200 rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
         <img
-        className="w-full h-50 object-cover"
+          className="w-full h-56 object-cover"
           src="https://cdn.pixabay.com/photo/2013/11/21/22/10/coffee-215383_1280.jpg"
-          alt="sample"
+          alt="Coffee"
         />
-        <div>
-          <h2 className="text-lg font-semibold text-gray-800 italic">Card Title</h2>
-          <p className="text-gray-600 text-sm mt-2">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis,
-            inventore facilis tempore dignissimos quod suscipit adipisci veniam
-            ipsa laudantium dolorum qui esse, quisquam accusamus nulla quis
-            delectus voluptate. Repellat, quod?
+        <div className="p-6">
+          <h2 className="text-2xl font-bold text-gray-800 mb-2">Fresh Coffee</h2>
+          <p className="text-gray-600 text-sm leading-relaxed">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+            voluptatum, excepturi nesciunt tempora libero accusantium!
           </p>
-          <button className="m-3 ">Buy Now</button>
+          <button className="mt-6 px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition transform hover:scale-105">
+            Buy Now
+          </button>
         </div>
       </div>
-
-      
-    </>
+    </div>
   );
 }
 
