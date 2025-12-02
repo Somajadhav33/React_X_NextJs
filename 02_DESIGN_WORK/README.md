@@ -95,7 +95,7 @@ export default App;
 
 ```
 
-![alt text](image.png)
+![alt text](./src/assets/image.png)
 
 ### Common Tailwind Classes Cheat Sheet
 
