@@ -30,15 +30,16 @@ graph TD
     D --> E[QueueDisplay re-renders]
     E --> F[New card slides in with animation]
 
-    G[Click Serve] --> H[Status: Serving (Blue)]
-    I[Click Complete] --> J[Status: Completed (Green)]
-    K[Click Remove] --> L[Customer disappears with fade]
+    G[Click Serve] --> H[Status: Serving]
+    I[Click Complete] --> J[Status: Completed]
+    K[Click Remove] --> L[Customer removed]
 
     style A fill:#6366f1, color:white, stroke:#4f46e5
     style F fill:#10b981, color:white, stroke:#059669
     style H fill:#3b82f6, color:white, stroke:#1e40af
     style J fill:#10b981, color:white, stroke:#047857
     style L fill:#ef4444, color:white, stroke:#b91c1c
+
 
 ```
 
