@@ -24,18 +24,21 @@ This isn't just another boring list – it's a **premium-feeling**, animated, gl
 
 ```mermaid
 graph TD
-    A[User fills form] --> B{Submit}
+    A[User fills form] --> B[Submit]
     B --> C[New customer added to queue]
     C --> D[State updates in App.jsx]
     D --> E[QueueDisplay re-renders]
     E --> F[New card slides in with animation]
-    
+
     G[Click "Serve"] --> H[Status → Serving (Blue)]
     I[Click "Complete"] --> J[Status → Completed (Green)]
     K[Click "Remove"] --> L[Customer disappears with fade]
-    
-    style A fill:#6366f1, color:white
-    style F fill:#10b981, color:white
+
+    style A fill:#6366f1, color:white, stroke:#4f46e5
+    style F fill:#10b981, color:white, stroke:#059669
+    style H fill:#3b82f6, color:white
+    style J fill:#10b981, color:white
+    style L fill:#ef4444, color:white
 ```
 
 ## Real-World Use Cases
