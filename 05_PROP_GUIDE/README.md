@@ -92,7 +92,7 @@ Now any component can just do `const { theme } = useTheme();`
 
 ```mermaid
 graph TD
-    A[App.jsx] --> B[ThemeProvider<br>(wraps everything)]
+    A[App.jsx] --> B[ThemeProvider(wraps everything)]
     B --> C[BasicProps<br>Shows simple props and click counter]
     B --> D[ChildrenProps<br>Card that wraps children]
     B --> E[ComplexProps<br>Passes one user object]
