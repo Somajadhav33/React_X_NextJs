@@ -92,12 +92,13 @@ Now any component can just do `const { theme } = useTheme();`
 
 ```mermaid
 graph TD
-    A[App.jsx] --> B[ThemeProvider(wraps everything)]
-    B --> C[BasicProps<br>Shows simple props and click counter]
-    B --> D[ChildrenProps<br>Card that wraps children]
-    B --> E[ComplexProps<br>Passes one user object]
-    B --> F[RefProps<br>Parent uses forwardRef to access input]
-    B --> G[ThemeToggler<br>Button switches light or dark mode]
+    A[App.jsx] --> B[ThemeProvider - wraps everything]
+    B --> C[BasicProps - simple props and click counter]
+    B --> D[ChildrenProps - card that wraps children]
+    B --> E[ComplexProps - passes one user object]
+    B --> F[RefProps - parent uses forwardRef to access input]
+    B --> G[ThemeToggler - switches light or dark mode]
+
 
 ```
 
