@@ -11,8 +11,8 @@ function App() {
         <header>
           <h1>Shopping Cart</h1>
         </header>
-        <main className="products">
-          <section>
+        <main>
+          <section className="products">
             {products.map((product) => (
               <ProductCard
                 key={product.id}

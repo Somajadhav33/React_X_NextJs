@@ -4,7 +4,7 @@ function CartItem({ item, onUpdateQuantity, onRemove }) {
     <div className="cart-item">
       <div className="item-details">
         <h4>{item.name}</h4>
-        <p>{item.price}</p>
+        <p>${item.price.toFixed(2)}</p>
         <div className="quantity-controls">
           <button onClick={() => onUpdateQuantity(item.id, item.quantity - 1)}>
             <FaMinus />
